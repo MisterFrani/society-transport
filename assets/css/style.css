@@ -60,12 +60,26 @@ a.btn.btn-secondary:hover {
     color: var(--white);
     border: 1px solid var(--white);
 }
+/* scrollbar custom*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--gray-light); 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary); 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #027439 ; 
+  }
 
 .form__box .btn {
     width: 100%;
 }
-
-
 
 .container {
     width: 90%;
